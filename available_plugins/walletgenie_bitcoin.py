@@ -587,7 +587,7 @@ class Bitcoin(BasePlugin):
 			return None
 		
 	def get_address_by_netki_wallet(self, wallet, coin, printerrors=True):
-		url = 'https://netki.com/api/wallet_lookup/'
+		url = 'https://pubapi.netki.com/api/wallet_lookup/'
 		headers = {
 			'Host': 'netki.com', 'User-Agent': 'WalletGenie netki integration',
 			'Content-type': 'application/json'
